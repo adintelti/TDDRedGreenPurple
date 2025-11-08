@@ -211,20 +211,15 @@ for (i = 0, l = charts.length; i < l; i++) {
 
 var assemblies = [
   {
-    "name": "PrjTDDRedGreenPurple.dll",
+    "name": "PrjTDDRedGreenPurple",
     "classes": [
-      { "name": "PrjTDDRedGreenPurple.NumeroHelper", "rp": "PrjTDDRedGreenPurple.dll_NumeroHelper.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "PrjTDDRedGreenPurple.NumeroHelper2", "rp": "PrjTDDRedGreenPurple.dll_NumeroHelper2.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "PrjTDDRedGreenPurple.Program", "rp": "PrjTDDRedGreenPurple.dll_Program.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-    ]},
-  {
-    "name": "PrjTDDRedGreenPurple.Test.dll",
-    "classes": [
-      { "name": "PrjTDDRedGreenPurple.Test.NumeroHelperTests", "rp": "PrjTDDRedGreenPurple.Test.dll_NumeroHelperTests.html", "cl": 23, "ucl": 0, "cal": 23, "tl": 72, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "PrjTDDRedGreenPurple.NumeroHelper", "rp": "PrjTDDRedGreenPurple_NumeroHelper.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "PrjTDDRedGreenPurple.NumeroHelper2", "rp": "PrjTDDRedGreenPurple_NumeroHelper2.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "PrjTDDRedGreenPurple.Program", "rp": "PrjTDDRedGreenPurple_Program.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
 
-var metrics = [{ "name": "Blocks covered", "abbreviation": "cb", "explanationUrl": "https://en.wikipedia.org/wiki/Code_coverage" }, { "name": "Blocks not covered", "abbreviation": "ub", "explanationUrl": "https://en.wikipedia.org/wiki/Code_coverage" }];
+var metrics = [{ "name": "Crap Score", "abbreviation": "crp", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" }, { "name": "Cyclomatic complexity", "abbreviation": "cc", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" }, { "name": "Line coverage", "abbreviation": "cov", "explanationUrl": "https://en.wikipedia.org/wiki/Code_coverage" }, { "name": "Branch coverage", "abbreviation": "bcov", "explanationUrl": "https://en.wikipedia.org/wiki/Code_coverage" }];
 
 var historicCoverageExecutionTimes = [];
 
@@ -234,7 +229,7 @@ var riskHotspotMetrics = [
 var riskHotspots = [
 ];
 
-var branchCoverageAvailable = false;
+var branchCoverageAvailable = true;
 var methodCoverageAvailable = false;
 var applyMaximumGroupingLevel = false;
 var maximumDecimalPlacesForCoverageQuotas = 1;

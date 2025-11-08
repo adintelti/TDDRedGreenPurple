@@ -3,7 +3,20 @@
     public class NumeroHelperTests
     {
         [Fact]
-        public void DeveRetornarTrueQuandoNumeroForPar()
+        public void NumeroHelper_DeveRetornarTrueQuandoNumeroForPar()
+        {
+            // Arrange
+            int numero = 4;
+
+            // Act
+            bool resultado = NumeroHelper.EhPar(numero);
+
+            // Assert
+            Assert.True(resultado);
+        }
+
+        [Fact]
+        public void NumeroHelper2_DeveRetornarTrueQuandoNumeroForPar()
         {
             // Arrange
             int numero = 4;
