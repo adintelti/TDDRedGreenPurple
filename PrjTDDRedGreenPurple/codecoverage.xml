@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<results>
+  <modules>
+    <module id="A1C0B60E1EBEEE4EBAD31551233B533082258BB6" name="PrjTDDRedGreenPurple.dll" path="PrjTDDRedGreenPurple.dll" block_coverage="42.86" line_coverage="25.00" blocks_covered="3" blocks_not_covered="4" lines_covered="2" lines_partially_covered="0" lines_not_covered="6">
+      <functions>
+        <function id="8272" token="0x6000001" name="EhPar(int)" namespace="PrjTDDRedGreenPurple" type_name="NumeroHelper" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="2" lines_covered="0" lines_partially_covered="0" lines_not_covered="3">
+          <ranges>
+            <range source_id="1" start_line="6" end_line="6" start_column="9" end_column="10" covered="no" />
+            <range source_id="1" start_line="8" end_line="8" start_column="13" end_column="36" covered="no" />
+            <range source_id="1" start_line="9" end_line="9" start_column="9" end_column="10" covered="no" />
+          </ranges>
+        </function>
+        <function id="8296" token="0x6000002" name="EhPar(int)" namespace="PrjTDDRedGreenPurple" type_name="NumeroHelper2" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="5" end_line="5" start_column="49" end_column="64" covered="yes" />
+          </ranges>
+        </function>
+        <function id="8304" token="0x6000003" name="EhImpar(int)" namespace="PrjTDDRedGreenPurple" type_name="NumeroHelper2" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="7" end_line="7" start_column="51" end_column="65" covered="yes" />
+          </ranges>
+        </function>
+        <function id="8315" token="0x6000004" name="Main(string[])" namespace="PrjTDDRedGreenPurple" type_name="Program" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="2" lines_covered="0" lines_partially_covered="0" lines_not_covered="3">
+          <ranges>
+            <range source_id="3" start_line="6" end_line="6" start_column="9" end_column="10" covered="no" />
+            <range source_id="3" start_line="7" end_line="7" start_column="13" end_column="48" covered="no" />
+            <range source_id="3" start_line="8" end_line="8" start_column="9" end_column="10" covered="no" />
+          </ranges>
+        </function>
+      </functions>
+      <source_files>
+        <source_file id="1" path="C:\git\PostechFiap\TDDRedGreenPurple\PrjTDDRedGreenPurple\NumeroHelper.cs" checksum_type="SHA256" checksum="B8457E4F64E81604A641CD44B5A1F7510262541E32A8B2A9EB2B6B66A92F1FE3" />
+        <source_file id="2" path="C:\git\PostechFiap\TDDRedGreenPurple\PrjTDDRedGreenPurple\NumeroHelper2.cs" checksum_type="SHA256" checksum="407F0132CE56EBD1DBCBC0D48D2B36BD0BC69DE76DC087F7FF59505390E76D13" />
+        <source_file id="3" path="C:\git\PostechFiap\TDDRedGreenPurple\PrjTDDRedGreenPurple\Program.cs" checksum_type="SHA256" checksum="48E62E143DFE69959378EBCAB3E197F31980A2C4F01884018D2EBAC52A02ED09" />
+      </source_files>
+      <skipped_functions />
+    </module>
+    <module id="27FA031C74C8104BAC1AA474271DA91FBC9CF9D1" name="PrjTDDRedGreenPurple.Test.dll" path="PrjTDDRedGreenPurple.Test.dll" block_coverage="100.00" line_coverage="100.00" blocks_covered="15" blocks_not_covered="0" lines_covered="23" lines_partially_covered="0" lines_not_covered="0">
+      <functions>
+        <function id="8284" token="0x6000003" name="DeveRetornarTrueQuandoNumeroForPar()" namespace="PrjTDDRedGreenPurple.Test" type_name="NumeroHelperTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="7" end_line="7" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="9" end_line="9" start_column="13" end_column="28" covered="yes" />
+            <range source_id="1" start_line="12" end_line="12" start_column="13" end_column="58" covered="yes" />
+            <range source_id="1" start_line="15" end_line="15" start_column="13" end_column="36" covered="yes" />
+            <range source_id="1" start_line="16" end_line="16" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="8316" token="0x6000004" name="DeveRetornarFalseQuandoNumeroForImpar()" namespace="PrjTDDRedGreenPurple.Test" type_name="NumeroHelperTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="20" end_line="20" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="22" end_line="22" start_column="13" end_column="28" covered="yes" />
+            <range source_id="1" start_line="25" end_line="25" start_column="13" end_column="58" covered="yes" />
+            <range source_id="1" start_line="28" end_line="28" start_column="13" end_column="37" covered="yes" />
+            <range source_id="1" start_line="29" end_line="29" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="8348" token="0x6000005" name="DeveRetornarTrueQuandoNumeroForImpar()" namespace="PrjTDDRedGreenPurple.Test" type_name="NumeroHelperTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="33" end_line="33" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="34" end_line="34" start_column="13" end_column="28" covered="yes" />
+            <range source_id="1" start_line="35" end_line="35" start_column="13" end_column="60" covered="yes" />
+            <range source_id="1" start_line="36" end_line="36" start_column="13" end_column="36" covered="yes" />
+            <range source_id="1" start_line="37" end_line="37" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="8380" token="0x6000006" name="DeveValidarSeNumeroEhPar(int, bool)" namespace="PrjTDDRedGreenPurple.Test" type_name="NumeroHelperTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="47" end_line="47" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="49" end_line="49" start_column="13" end_column="58" covered="yes" />
+            <range source_id="1" start_line="52" end_line="52" start_column="13" end_column="47" covered="yes" />
+            <range source_id="1" start_line="53" end_line="53" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+        <function id="8412" token="0x6000007" name="DeveValidarSeNumeroEhImpar(int, bool)" namespace="PrjTDDRedGreenPurple.Test" type_name="NumeroHelperTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="63" end_line="63" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="65" end_line="65" start_column="13" end_column="60" covered="yes" />
+            <range source_id="1" start_line="68" end_line="68" start_column="13" end_column="47" covered="yes" />
+            <range source_id="1" start_line="69" end_line="69" start_column="9" end_column="10" covered="yes" />
+          </ranges>
+        </function>
+      </functions>
+      <source_files>
+        <source_file id="1" path="C:\git\PostechFiap\TDDRedGreenPurple\PrjTDDRedGreenPurple.Test\NumeroHelperTests.cs" checksum_type="SHA256" checksum="B7C08C2D750D58A920F0F1DFB4EA28054D103D9ECDAD853B2F26075B4DFDA6AA" />
+      </source_files>
+      <skipped_functions>
+        <skipped_function id="8272" original_id="8272" token="0x6000001" name="Main(string[])" type_name="AutoGeneratedProgram" reason="attribute_excluded" />
+      </skipped_functions>
+    </module>
+  </modules>
+  <skipped_modules>
+    <skipped_module name="system.runtime.dll" path="system.runtime.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.testplatform.crossplatengine.dll" path="microsoft.testplatform.crossplatengine.dll" reason="path_is_excluded" />
+    <skipped_module name="system.reflection.dll" path="system.reflection.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.visualstudio.testplatform.common.resources.dll" path="microsoft.visualstudio.testplatform.common.resources.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.visualstudio.testplatform.objectmodel.dll" path="microsoft.visualstudio.testplatform.objectmodel.dll" reason="path_is_excluded" />
+    <skipped_module name="system.io.memorymappedfiles.dll" path="system.io.memorymappedfiles.dll" reason="path_is_excluded" />
+    <skipped_module name="system.reflection.emit.lightweight.dll" path="system.reflection.emit.lightweight.dll" reason="path_is_excluded" />
+    <skipped_module name="system.reflection.primitives.dll" path="system.reflection.primitives.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.numerics.dll" path="system.runtime.numerics.dll" reason="path_is_excluded" />
+    <skipped_module name="system.diagnostics.tracesource.dll" path="system.diagnostics.tracesource.dll" reason="path_is_excluded" />
+    <skipped_module name="system.xml.xdocument.dll" path="system.xml.xdocument.dll" reason="path_is_excluded" />
+    <skipped_module name="system.collections.concurrent.dll" path="system.collections.concurrent.dll" reason="path_is_excluded" />
+    <skipped_module name="system.io.dll" path="system.io.dll" reason="path_is_excluded" />
+    <skipped_module name="system.text.encoding.extensions.dll" path="system.text.encoding.extensions.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.extensions.dll" path="system.runtime.extensions.dll" reason="path_is_excluded" />
+    <skipped_module name="testhost.dll" path="testhost.dll" reason="path_is_excluded" />
+    <skipped_module name="newtonsoft.json.dll" path="newtonsoft.json.dll" reason="path_is_excluded" />
+    <skipped_module name="system.threading.dll" path="system.threading.dll" reason="path_is_excluded" />
+    <skipped_module name="system.private.corelib.dll" path="system.private.corelib.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.testplatform.coreutilities.dll" path="microsoft.testplatform.coreutilities.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.serialization.primitives.dll" path="system.runtime.serialization.primitives.dll" reason="path_is_excluded" />
+    <skipped_module name="system.diagnostics.diagnosticsource.dll" path="system.diagnostics.diagnosticsource.dll" reason="path_is_excluded" />
+    <skipped_module name="system.private.xml.dll" path="system.private.xml.dll" reason="path_is_excluded" />
+    <skipped_module name="xunit.runner.visualstudio.testadapter.dll" path="xunit.runner.visualstudio.testadapter.dll" reason="path_is_excluded" />
+    <skipped_module name="system.memory.dll" path="system.memory.dll" reason="path_is_excluded" />
+    <skipped_module name="system.net.http.dll" path="system.net.http.dll" reason="path_is_excluded" />
+    <skipped_module name="system.numerics.vectors.dll" path="system.numerics.vectors.dll" reason="path_is_excluded" />
+    <skipped_module name="system.threading.tasks.dll" path="system.threading.tasks.dll" reason="path_is_excluded" />
+    <skipped_module name="system.reflection.metadata.dll" path="system.reflection.metadata.dll" reason="path_is_excluded" />
+    <skipped_module name="system.globalization.dll" path="system.globalization.dll" reason="path_is_excluded" />
+    <skipped_module name="system.threading.thread.dll" path="system.threading.thread.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.intrinsics.dll" path="system.runtime.intrinsics.dll" reason="path_is_excluded" />
+    <skipped_module name="system.diagnostics.tracing.dll" path="system.diagnostics.tracing.dll" reason="path_is_excluded" />
+    <skipped_module name="system.objectmodel.dll" path="system.objectmodel.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.testplatform.communicationutilities.dll" path="microsoft.testplatform.communicationutilities.dll" reason="path_is_excluded" />
+    <skipped_module name="system.text.regularexpressions.dll" path="system.text.regularexpressions.dll" reason="path_is_excluded" />
+    <skipped_module name="system.linq.dll" path="system.linq.dll" reason="path_is_excluded" />
+    <skipped_module name="system.threading.threadpool.dll" path="system.threading.threadpool.dll" reason="path_is_excluded" />
+    <skipped_module name="system.reflection.extensions.dll" path="system.reflection.extensions.dll" reason="path_is_excluded" />
+    <skipped_module name="system.reflection.emit.ilgeneration.dll" path="system.reflection.emit.ilgeneration.dll" reason="path_is_excluded" />
+    <skipped_module name="system.data.common.dll" path="system.data.common.dll" reason="path_is_excluded" />
+    <skipped_module name="system.componentmodel.typeconverter.dll" path="system.componentmodel.typeconverter.dll" reason="path_is_excluded" />
+    <skipped_module name="xunit.abstractions.dll" path="xunit.abstractions.dll" reason="path_is_excluded" />
+    <skipped_module name="system.private.uri.dll" path="system.private.uri.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.testplatform.platformabstractions.dll" path="microsoft.testplatform.platformabstractions.dll" reason="path_is_excluded" />
+    <skipped_module name="system.security.cryptography.dll" path="system.security.cryptography.dll" reason="path_is_excluded" />
+    <skipped_module name="system.componentmodel.dll" path="system.componentmodel.dll" reason="path_is_excluded" />
+    <skipped_module name="system.xml.readerwriter.dll" path="system.xml.readerwriter.dll" reason="path_is_excluded" />
+    <skipped_module name="system.text.encoding.dll" path="system.text.encoding.dll" reason="path_is_excluded" />
+    <skipped_module name="xunit.assert.dll" path="xunit.assert.dll" reason="path_is_excluded" />
+    <skipped_module name="netstandard.dll" path="netstandard.dll" reason="path_is_excluded" />
+    <skipped_module name="system.net.primitives.dll" path="system.net.primitives.dll" reason="path_is_excluded" />
+    <skipped_module name="system.private.xml.linq.dll" path="system.private.xml.linq.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.serialization.formatters.dll" path="system.runtime.serialization.formatters.dll" reason="path_is_excluded" />
+    <skipped_module name="system.threading.tasks.extensions.dll" path="system.threading.tasks.extensions.dll" reason="path_is_excluded" />
+    <skipped_module name="system.collections.immutable.dll" path="system.collections.immutable.dll" reason="path_is_excluded" />
+    <skipped_module name="xunit.execution.dotnet.dll" path="xunit.execution.dotnet.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.interopservices.dll" path="system.runtime.interopservices.dll" reason="path_is_excluded" />
+    <skipped_module name="system.collections.dll" path="system.collections.dll" reason="path_is_excluded" />
+    <skipped_module name="system.diagnostics.process.dll" path="system.diagnostics.process.dll" reason="path_is_excluded" />
+    <skipped_module name="system.threading.overlapped.dll" path="system.threading.overlapped.dll" reason="path_is_excluded" />
+    <skipped_module name="xunit.core.dll" path="xunit.core.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.visualstudio.testplatform.common.dll" path="microsoft.visualstudio.testplatform.common.dll" reason="path_is_excluded" />
+    <skipped_module name="system.runtime.loader.dll" path="system.runtime.loader.dll" reason="path_is_excluded" />
+    <skipped_module name="system.net.sockets.dll" path="system.net.sockets.dll" reason="path_is_excluded" />
+    <skipped_module name="system.collections.nongeneric.dll" path="system.collections.nongeneric.dll" reason="path_is_excluded" />
+    <skipped_module name="system.componentmodel.primitives.dll" path="system.componentmodel.primitives.dll" reason="path_is_excluded" />
+    <skipped_module name="system.linq.expressions.dll" path="system.linq.expressions.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.win32.primitives.dll" path="microsoft.win32.primitives.dll" reason="path_is_excluded" />
+  </skipped_modules>
+</results>
