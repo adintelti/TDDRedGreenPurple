@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../PrjTDDRedGreenPurple.Test/PrjTDDRedGreenPurple.Test.csproj" />
+  <Project Path="PrjTDDRedGreenPurple.csproj" />
+</Solution>
