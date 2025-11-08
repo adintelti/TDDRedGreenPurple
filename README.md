@@ -1,29 +1,26 @@
 # TDDRedGreenPurple
 
-A repository for exploring and demonstrating Test-Driven Development (TDD) principles, focusing specifically on the "Red-Green-Purple" workflow. This project serves as an educational resource and a practical code base for anyone interested in improving their software testing practices using TDD.
+An example project of how the Red Green Purple pattern works on Test Driven Development.
+
+This repository demonstrates TDD concepts following the Red-Green-Purple workflow using .NET 10 (C# 14) and Visual Studio 2026.  
+It serves as an educational resource for anyone looking to learn TDD with practical steps and examples.
 
 ---
 
 ## Project Details
 
-- **Technology Stack:**  
-  - **Framework:** .NET 10  
-  - **Language:** C# 14  
-  - **IDE:** Visual Studio 2026
-
-- **Workflow Covered:**  
-  - **Red:** Write a failing test that defines a desired improvement or new function.
-  - **Green:** Write just enough code to make the test pass.
-  - **Purple (Refactor):** Clean up the code—remove duplication, improve structure—while keeping all tests passing.
+- **Framework:** .NET 10  
+- **Language:** C# 14  
+- **IDE:** Visual Studio 2026  
+- **Languages:** CSS, HTML, C# (see [language composition](#language-composition) below)
 
 ---
 
-## Features
+## What is the Red-Green-Purple Pattern in TDD?
 
-- Sample code demonstrating the Red-Green-Purple TDD workflow
-- Unit tests for each development stage
-- Documentation and comments explaining TDD concepts
-- Example refactoring steps with justifications
+- **Red:** Write a failing test that defines a new function or improvement.
+- **Green:** Write just enough code to make the test pass.
+- **Purple (Refactor):** Clean up the code, remove duplication, and improve structure while keeping all tests passing.
 
 ---
 
@@ -35,38 +32,107 @@ A repository for exploring and demonstrating Test-Driven Development (TDD) princ
 - [Visual Studio 2026](https://visualstudio.microsoft.com/)
 - Git
 
-### Clone the repo
+### Setup
+
+1. **Clone the repo:**
+    ```sh
+    git clone https://github.com/adintelti/TDDRedGreenPurple.git
+    cd TDDRedGreenPurple
+    ```
+
+2. **Open the Solution:**  
+   Open the `.sln` file with Visual Studio 2026.
+
+3. **Restore and Build:**  
+   Restore NuGet packages and build the solution.
+
+---
+
+## Running Tests
+
+- Run tests using Visual Studio's Test Explorer, or:
+    ```sh
+    dotnet test
+    ```
+
+---
+
+## Generating a Code Coverage Report
+
+### Method 1: Using ReportGenerator with Coverlet
+
+#### 1. Install dependencies
+
+- **Install Coverlet and ReportGenerator via NuGet:**
+    - Right-click your test project in Visual Studio and choose **Manage NuGet Packages**.
+    - Install:
+        - `coverlet.collector`
+        - `ReportGenerator`
+
+Or with CLI:
 
 ```sh
-git clone https://github.com/adintelti/TDDRedGreenPurple.git
-cd TDDRedGreenPurple
+dotnet add <YourTestProject> package coverlet.collector
+dotnet add <YourTestProject> package ReportGenerator
 ```
 
-### Open in Visual Studio
-
-Open the `.sln` solution file in Visual Studio 2026.  
-Restore NuGet packages and build the solution.
-
-### Run the tests
-
-Use Visual Studio's Test Explorer or run via command line:
+Or to install the ReportGenerator global tool:
 
 ```sh
-dotnet test
+dotnet tool install --global dotnet-reportgenerator-globaltool
 ```
+
+#### 2. Collect coverage when running tests
+
+```sh
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
+```
+
+#### 3. Generate the coverage report
+
+```sh
+reportgenerator "-reports:./<YourTestProject>/coverage.cobertura.xml" "-targetdir:./<YourTestProject>/coverage-report" -reporttypes:Html
+```
+Replace `<YourTestProject>` with the name of your test project folder.
+
+#### 4. View the report
+
+Open `./<YourTestProject>/coverage-report/index.html` in your web browser.
+
+---
+
+### Method 2: Using the "Run Coverlet Report" Extension for Visual Studio 2022+
+
+1. **Install the Extension:**
+    - Download and install [Run Coverlet Report](https://marketplace.visualstudio.com/items?itemName=AdrianDC.run-coverlet-report) from the Visual Studio Marketplace.
+
+2. **Run Coverage via Extension:**
+    - Right-click on your test project in Solution Explorer.
+    - Select **Run Coverlet Report** from the context menu.
+
+3. **Browse Results:**  
+    - A detailed code coverage report will be generated and shown in a browser window or tab inside Visual Studio.
+
+---
+
+## Language Composition
+
+- **CSS:** 57.3%
+- **HTML:** 40.3%
+- **C#:** 2.4%
 
 ---
 
 ## Usage
 
-Review the C# code and unit tests to understand how TDD works in practice.  
-Follow the commit history to see the Red-Green-Purple cycle in action.
+Review the code, commit history, and tests to follow the Red-Green-Purple TDD cycle in practice.
 
 ---
 
 ## Contributing
 
-Contributions are welcome! If you spot an error, want to enhance the examples, or have ideas for new TDD exercises, feel free to open a pull request or issue.
+Contributions are welcome!  
+Open issues or pull requests to improve examples or add TDD exercises.
 
 ---
 
@@ -81,7 +147,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [adintelti](https://github.com/adintelti)
 
 ---
-
-## Acknowledgments
-
-- Thanks to the 
